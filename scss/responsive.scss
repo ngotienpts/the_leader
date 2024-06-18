@@ -1,0 +1,85 @@
+// max width 1536px
+@media (max-width: 1536px) {
+    .d-2xl-none {
+        display: none;
+    }
+    .d-2xl-block {
+        display: block;
+    }
+    .d-2xl-flex {
+        display: flex;
+    }
+    .d-2xl-grid {
+        display: grid;
+    }
+}
+// max width 1280px
+@media (max-width: 1280px) {
+    .d-xl-none {
+        display: none;
+    }
+    .d-xl-block {
+        display: block;
+    }
+    .d-xl-flex {
+        display: flex;
+    }
+    .d-xl-grid {
+        display: grid;
+    }
+}
+// max width 1024px
+@media (max-width: 1024px) {
+    .d-lg-none {
+        display: none;
+    }
+    .d-lg-block {
+        display: block;
+    }
+    .d-lg-flex {
+        display: flex;
+    }
+    .d-lg-grid {
+        display: grid;
+    }
+}
+
+// max width 768px
+@media (max-width: 768px) {
+    .d-md-none {
+        display: none;
+    }
+    .d-md-block {
+        display: block;
+    }
+    .d-md-flex {
+        display: flex;
+    }
+    .d-md-grid {
+        display: grid;
+    }
+}
+
+// max width 640px
+@media (max-width: 640px) {
+    .d-sm-none {
+        display: none;
+    }
+    .d-sm-block {
+        display: block;
+    }
+    .d-sm-flex {
+        display: flex;
+    }
+    .d-sm-grid {
+        display: grid;
+    }
+
+    // --------------------------------------------------------------------header
+
+    // --------------------------------------------------------------------index
+
+    // --------------------------------------------------------------------cate
+
+    // --------------------------------------------------------------------detail
+}
