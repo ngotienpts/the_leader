@@ -114,20 +114,22 @@
             }
         }
     }
+    &.sticky {
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            z-index: 100;
+        }
+    }
 }
 .navbar {
     border-bottom: 1px solid #e5e5e5;
     position: relative;
     background-color: #fff;
     padding: 0 20px;
-    &.sticky {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        z-index: 100;
-    }
 
     &-wrapper {
         width: 100%;
