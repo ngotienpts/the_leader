@@ -23,3 +23,71 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+.footer {
+    .hotline-img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 1px solid #737373;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    &-content {
+        .btn {
+            background-color: #f7f7f7;
+            border: 1px solid #e5e5e5;
+            border-radius: 999px;
+            padding: 5px 17px;
+        }
+        .register-email {
+            max-width: 70%;
+            &__input {
+                background-color: #f7f7f7;
+            }
+            &__group {
+                position: relative;
+            }
+            &__icon {
+                position: absolute;
+                left: 0.5rem;
+                top: 50%;
+                transform: translateY(-50%);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            &__input {
+                border: 1px solid #e5e5e5;
+                height: 1.875rem;
+                border-radius: 999px;
+                width: 100%;
+                padding: 8px 80px 8px 28px;
+                font-size: 0.875rem;
+
+                &:focus {
+                    border-color: #152764;
+                }
+            }
+            &__btn {
+                background-color: #dc0000;
+                color: #fff;
+                border-radius: 999px;
+                font-weight: bold;
+                padding: 0.5rem 1rem;
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 0.75rem;
+                cursor: pointer;
+            }
+        }
+    }
+}
