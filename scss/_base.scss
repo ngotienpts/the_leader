@@ -342,6 +342,9 @@ img {
 .bg-yellow-ff {
     background-color: #ffefd7;
 }
+.bg-red-c5 {
+    background-color: #c5161d;
+}
 
 /*=================================================================*/
 .fw-300 {
@@ -1087,4 +1090,12 @@ img {
 }
 .border-7320 {
     border-bottom: 1px solid rgba($color: #737373, $alpha: 0.2);
+}
+.border-4 {
+    border-radius: 0.25rem;
+    overflow: hidden;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
 }

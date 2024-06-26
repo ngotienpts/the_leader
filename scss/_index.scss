@@ -30,6 +30,8 @@
     align-items: center;
     margin-bottom: 10px;
     overflow: hidden;
+    position: relative;
+    z-index: 20;
     .heading-one {
         flex-shrink: 0;
         font-weight: bold;
@@ -71,6 +73,8 @@
     align-items: center;
     margin-bottom: 10px;
     overflow: hidden;
+    position: relative;
+    z-index: 20;
     .heading-one {
         flex-shrink: 0;
         font-weight: bold;
@@ -416,6 +420,7 @@
         .article-img {
             width: 70px;
             height: 70px;
+            flex-shrink: 0;
             border-radius: 999px;
             overflow: hidden;
         }
