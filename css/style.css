@@ -1527,7 +1527,8 @@ img {
   transform: translateY(-50%);
   background-color: #d6d6d6;
 }
-.header.sticky .navbar {
+.header.sticky .navbar,
+.header.sticky .navbar-menu-mb {
   position: fixed;
   top: 0;
   left: 0;
@@ -1797,6 +1798,10 @@ img {
 }
 .item-sub:last-child .item-sub__link {
   border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.navbar-menu-mb {
+  background-color: #fff;
 }
 
 .navbar-mb {

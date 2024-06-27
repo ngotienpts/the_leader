@@ -31,7 +31,8 @@
     &-center {
     }
     &.sticky {
-        .navbar {
+        .navbar,
+        .navbar-menu-mb  {
             position: fixed;
             top: 0;
             left: 0;
@@ -332,7 +333,11 @@
         border-bottom: 1px solid rgba(255, 255, 255, 0.16);
     }
 }
+.navbar-menu-mb {
+    background-color: #fff;
+}
 .navbar-mb {
+    
     overflow-x: scroll;
     white-space: nowrap;
     flex-wrap: nowrap;
