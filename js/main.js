@@ -17,6 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const dropdownSubMenu = document.querySelectorAll(".js__dropDown");
     const subMenu = document.querySelector(".js__clickShowMenuMb");
 
+    // more menu
+    const navbarMoreIcon = document.querySelector('.js__navbarMoreIcon')
+    const navbarMoreContent = document.querySelector('.js__navbarMoreContent')
+
+
     // search mb
     const searchMbs = document.querySelectorAll(".js__searchMb");
     // navbar mb
@@ -55,6 +60,17 @@ document.addEventListener("DOMContentLoaded", function () {
             parentBox.classList.remove("active");
             document.querySelector("body").style.overflow = "auto";
         };
+    }
+
+    // xử lý sự kiện show more menu
+    function handleMoreMenu() {
+        if(!navbarMoreIcon || !navbarMoreContent) return;
+
+        navbarMoreIcon.onclick = function() {
+            this.classList.toggle('active')
+            navbarMoreContent.classList.toggle('active')
+        }
+
     }
 
     // Xử lý sự kiện để show dropdown submenu
@@ -296,6 +312,7 @@ function handleBackTopVisibility() {
         handleBackTop();
         handleShowSubMenu();
         handleShowDropdownSubMenu();
+        handleMoreMenu();
         handleShowSearchMb();
         handleNavbarMb();
         handleLanguageSwitch();

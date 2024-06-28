@@ -163,7 +163,7 @@
                 right: 0;
                 min-width: 200px;
                 background-color: white;
-                z-index: 10;
+                z-index: 100;
                 box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
                 display: none;
             }
@@ -177,6 +177,78 @@
             &:hover .navbar-dropdown {
                 display: block;
             }
+        }
+    }
+}
+
+.navbar-more {
+    padding: 12px 10px;
+    cursor: pointer;
+    &__icon {
+        .bar {
+            display: block;
+            img {
+                width: 20px;
+                height: auto;
+            }
+        }
+
+        .close {
+            display: none;
+            width: 20px;
+            height: auto;
+        }
+
+        &.active {
+            .bar {
+                display: none;
+            }
+    
+            .close {
+                display: block;
+            }
+        }
+    }
+
+    &__content {
+        background: #fff;
+        position: absolute;
+        height: 100vh;
+        z-index: 50;
+        top: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+
+    &__inner {
+        padding: 20px 0;
+        max-height: calc(100vh - 200px);
+        overflow: auto;
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 16px;
+        color: #181716;
+        a {
+            display: block;
+            padding: 10px;
+        }
+    }
+
+    &__children {
+        font-size: 14px;
+        font-weight: 600;
+
+        a {
+            display: block;
+            padding: 5px 10px;
         }
     }
 }
