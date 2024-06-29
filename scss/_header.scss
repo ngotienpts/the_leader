@@ -32,7 +32,7 @@
     }
     &.sticky {
         .navbar,
-        .navbar-menu-mb  {
+        .navbar-menu-mb {
             position: fixed;
             top: 0;
             left: 0;
@@ -99,7 +99,7 @@
     &-img {
         width: 20px;
         height: 20px;
-        // border-radius: 999px;
+        border-radius: 999px;
     }
 }
 .logo {
@@ -203,7 +203,7 @@
             .bar {
                 display: none;
             }
-    
+
             .close {
                 display: block;
             }
@@ -409,7 +409,6 @@
     background-color: #fff;
 }
 .navbar-mb {
-    
     overflow-x: scroll;
     white-space: nowrap;
     flex-wrap: nowrap;
