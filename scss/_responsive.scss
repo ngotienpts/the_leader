@@ -105,7 +105,11 @@
     }
 
     // --------------------------------------------------------------------index
-
+    .box-media {
+        .media-small {
+            margin-right: 0;
+        }
+    }
     .box-primary {
         .box-container {
             display: block;
@@ -214,7 +218,20 @@
             }
         }
     }
+    .thematic {
+        padding: 20px;
+        margin-bottom: 20px;
 
+        .thematic-list {
+            padding-left: 0;
+            .article::before {
+                content:none;
+            }
+        }
+    }
+    .heading-secondary .heading-one {
+        border-left: 3px solid #000;
+    }
     // --------------------------------------------------------------------cate
     .cate-primary {
         &__container {
@@ -444,7 +461,9 @@
             }
         }
     }
-
+    .thematic {
+        padding: 15px;
+    }
     .main-primary {
         .box-container {
             border-bottom: 0;
